@@ -1,6 +1,6 @@
 import React from 'react'
 import {FaBars,FaTimes,FaGithub,FaLinkedin} from 'react-icons/fa'
-import Logo from '../assets/brand-logo.png'
+import Logo from '../assets/brand-logo1.png'
 import { useState } from 'react'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
@@ -16,7 +16,7 @@ const Navbar = () => {
     <div className='fixed px-10 w-full h-[80px] flex justify-between items-center bg-[#0a192f]'>
         {/*brand-logo*/}
         <div>
-            <img className='w-32' src={Logo} alt="" />
+            <img className=' logo' src={Logo} alt="" />
         </div>
         {/*nav-items*/}
         <div className='hidden md:block text-white '>
@@ -40,7 +40,7 @@ const Navbar = () => {
             </ul>
         </div>}
         {/*side-nav*/}
-        <div className='flex flex-col fixed left-0 text-white  top-[35%]'>
+        <div className='hidden md:flex flex-col fixed left-0 text-white  top-[35%]'>
             <ul>
                 <li className='flex w-[160px] ml-[-108px] hover:ml-[0px] duration-300 h-[50px]  justify-between items-center  bg-blue-600 text-lg' >
                     <span >LinkedIn</span>
@@ -66,7 +66,7 @@ const Navbar = () => {
 
         {/*hamburger*/}
         <div onClick={()=> handleClick()} className='md:hidden z-20 text-white'>
-            {!nav ? <FaBars/>:<FaTimes/>}
+            {!nav ? <FaBars size={22} />:<FaTimes size={22}/>}
         </div>
         
     </div>
