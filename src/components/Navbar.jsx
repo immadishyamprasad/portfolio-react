@@ -5,6 +5,8 @@ import { useState } from 'react'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 
+import { Link } from 'react-router-dom'
+
 const Navbar = () => {
   const [nav,setNav] = useState(false);
   const handleClick = ()=>{
@@ -13,7 +15,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className='fixed px-10 w-full h-[80px] flex justify-between items-center bg-[#0a192f]'>
+    <div  className='fixed px-10 w-full h-[80px] flex justify-between items-center bg-[#0a192f]'>
         {/*brand-logo*/}
         <div>
             <img className=' logo' src={Logo} alt="" />
@@ -21,22 +23,23 @@ const Navbar = () => {
         {/*nav-items*/}
         <div className='hidden md:block text-white '>
             <ul className='flex space-x-6 text-[16px]'>
-                <li>Home</li>
-                <li>About</li>
-                <li>Skills</li>
-                <li>Work</li>
-                <li>Contact</li>
+                <li><Link  to="/" className='curser-pointer' smooth={true} duration={500}>Home</Link></li>
+                <li><Link  to="/about" className='curser-pointer' smooth={true} duration={500}>About</Link></li>
+                <li><Link  to="/skills" className='curser-pointer' smooth={true} duration={500}>Skills</Link></li>
+                <li><Link  to="/works" className='curser-pointer' smooth={true} duration={500}>Work</Link></li>
+                <li><Link  to="/contact" className='curser-pointer' smooth={true} duration={500}>Contact</Link></li>
+                
             </ul>
         </div>
         
         {/*mobile-navbar*/}
         {nav && <div >
             <ul className='fixed top-0 left-0 z-20  bg-[#0a192f] w-full h-screen text-white flex flex-col justify-center items-center space-y-6 text-3xl'>
-                <li>Home</li>
-                <li>About</li>
-                <li>Skills</li>
-                <li>Work</li>
-                <li>Contact</li>
+                <li ><Link onClick={()=> handleClick()}  to="home" className='curser-pointer' smooth={true} duration={500}>Home</Link></li>
+                <li><Link  onClick={()=> handleClick()} to="about" className='curser-pointer' smooth={true} duration={500}>About</Link></li>
+                <li><Link  onClick={()=> handleClick()} to="skills" className='curser-pointer' smooth={true} duration={500}>Skills</Link></li>
+                <li><Link  onClick={()=> handleClick()} to="works" className='curser-pointer' smooth={true} duration={500}>Work</Link></li>
+                <li><Link  onClick={()=> handleClick()} to="contact" className='curser-pointer' smooth={true} duration={500}>Contact</Link></li>
             </ul>
         </div>}
         {/*side-nav*/}
@@ -65,7 +68,7 @@ const Navbar = () => {
         </div>
 
         {/*hamburger*/}
-        <div onClick={()=> handleClick()} className='md:hidden z-20 text-white'>
+        <div onClick={()=> handleClick()} className='md:hidden z-20 cursor-pointer text-white'>
             {!nav ? <FaBars size={22} />:<FaTimes size={22}/>}
         </div>
         

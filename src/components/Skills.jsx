@@ -10,7 +10,7 @@ import Tailwind from '../assets/tailwind.png';
 
 const Skills = () => {
   return (
-    <div className="w-full h-full sm:h-screen bg-[#0a192f] text-[#ccd6f6]">
+    <div name="skills" className="w-full h-full sm:h-screen bg-[#0a192f] text-[#ccd6f6]">
         <div className=" px-10 max-w-[850px] mx-auto space-y-6 flex flex-col justify-center w-full h-full">
             
             <div>
