@@ -20,32 +20,32 @@ const Skills = () => {
                 <p className='py-6'>// These are the technologies I've worked with</p>
             </div>
             <div className='w-full font-sans grid grid-cols-2 sm:grid-cols-4 gap-6'>
-                <div className='shadow-md  text-center shadow-black hover:scale-110 duration-500 hover:cursor-pointer'>
+                <div className='shadow-md  text-center shadow-black hover:scale-110 duration-500 '>
                     <img className='w-16 mx-auto py-2' src={HTML} alt="" />
                     <p className='py-2'>Html</p>
 
                 </div>
-                <div className='shadow-md text-center shadow-black hover:scale-110 duration-500 hover:cursor-pointer'>
+                <div className='shadow-md text-center shadow-black hover:scale-110 duration-500 '>
                     <img className='w-16 mx-auto py-2' src={CSS} alt="" />
                     <p className='py-2'>Css</p>
 
                 </div>
-                <div className='shadow-md text-center shadow-black hover:scale-110 duration-500 hover:cursor-pointer'>
+                <div className='shadow-md text-center shadow-black hover:scale-110 duration-500 '>
                     <img className='w-16 mx-auto py-2' src={JavaScript} alt="" />
                     <p className='py-2'>JavaScript</p>
 
                 </div>
-                <div className='shadow-md text-center shadow-black hover:scale-110 duration-500 hover:cursor-pointer'>
+                <div className='shadow-md text-center shadow-black hover:scale-110 duration-500 '>
                     <img className='w-16 mx-auto py-2' src={ReactImg} alt="" />
                     <p className='py-2'>React</p>
 
                 </div>
-                <div className='shadow-md text-center shadow-black hover:scale-110 duration-500 hover:cursor-pointer'>
+                <div className='shadow-md text-center shadow-black hover:scale-110 duration-500 '>
                     <img className='w-16 mx-auto py-2' src={Tailwind} alt="" />
                     <p className='py-2'>TailWind</p>
 
                 </div>
-                <div className='shadow-md text-center shadow-black hover:scale-110 duration-500 hover:cursor-pointer'>
+                <div className='shadow-md text-center shadow-black hover:scale-110 duration-500 '>
                     <img className='w-16 mx-auto py-2' src={GitHub} alt="" />
                     <p className='py-2'>GitHub</p>
 
