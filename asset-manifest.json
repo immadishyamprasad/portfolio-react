@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.44d656bd.css",
-    "main.js": "/portfolio-react/static/js/main.e6fc2c37.js",
+    "main.css": "/portfolio-react/static/css/main.9b01cd5f.css",
+    "main.js": "/portfolio-react/static/js/main.796be5ab.js",
     "static/media/two.png": "/portfolio-react/static/media/two.e74fbfc1816a6265642c.png",
     "static/media/react.png": "/portfolio-react/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/github.png": "/portfolio-react/static/media/github.3b9e32903aa89111875d.png",
@@ -12,11 +12,11 @@
     "static/media/javascript.png": "/portfolio-react/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/django.svg": "/portfolio-react/static/media/django.326610a9cd55bf5bd7b2e2ee31062f9e.svg",
     "index.html": "/portfolio-react/index.html",
-    "main.44d656bd.css.map": "/portfolio-react/static/css/main.44d656bd.css.map",
-    "main.e6fc2c37.js.map": "/portfolio-react/static/js/main.e6fc2c37.js.map"
+    "main.9b01cd5f.css.map": "/portfolio-react/static/css/main.9b01cd5f.css.map",
+    "main.796be5ab.js.map": "/portfolio-react/static/js/main.796be5ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.44d656bd.css",
-    "static/js/main.e6fc2c37.js"
+    "static/css/main.9b01cd5f.css",
+    "static/js/main.796be5ab.js"
   ]
 }
