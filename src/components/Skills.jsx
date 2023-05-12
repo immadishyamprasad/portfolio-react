@@ -6,6 +6,7 @@ import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
+import Django from '../assets/django.svg';
 
 
 const Skills = () => {
@@ -43,6 +44,11 @@ const Skills = () => {
                 <div className='shadow-md text-center shadow-black hover:scale-110 duration-500 '>
                     <img className='w-16 mx-auto py-2' src={Tailwind} alt="" />
                     <p className='py-2'>TailWind</p>
+
+                </div>
+                <div className='shadow-md text-center shadow-black hover:scale-110 duration-500 '>
+                    <img className='w-16 h-20 mx-auto py-2' src={Django} alt="" />
+                    <p className='py-2'>Django</p>
 
                 </div>
                 <div className='shadow-md text-center shadow-black hover:scale-110 duration-500 '>
